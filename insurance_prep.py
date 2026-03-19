@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-# Вечная прямая ссылка на датасет
 DATASET_URL = "https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv"
 
 RAW_DATA = "/home/alexfomin/airflow/data/insurance_raw.csv"
