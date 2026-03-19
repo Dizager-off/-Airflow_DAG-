@@ -1,0 +1,16 @@
+# Данные и модели (не загружаем большие файлы)
+*.csv
+*.pkl
+data/
+mlruns/
+
+# Виртуальные окружения
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Логи Airflow
+logs/
+.airflow*
+
